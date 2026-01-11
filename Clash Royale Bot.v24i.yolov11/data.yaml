@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['0', 'archere', 'bat', 'chevalier', 'gargouille', 'geant', 'gobelin', 'gobelin_lances', 'mini_PEKKA', 'mousquetaire', 'squelette', 'valkyrie', 'zappy']
+
+roboflow:
+  workspace: minesbot
+  project: clash-royale-bot
+  version: 24
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/minesbot/clash-royale-bot/dataset/24
